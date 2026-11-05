@@ -24,11 +24,11 @@ chalao aur phone mein `http://<laptop-ka-IP>:8000` kholo.
 
 ## Naye PC par
 
-Git aur Python 3.10 ya naya chahiye (test Python 3.14 par hua hai). Repo private hai, isliye pehle GitHub login karo.
+Git aur Python 3.10 ya naya chahiye (test Python 3.14 par hua hai). Repo public hai, isliye clone ke liye GitHub login
+nahi chahiye. Naye PC se changes GitHub par push karne ke liye login chahiye (`gh auth login`).
 
 ```bash
-gh auth login
-gh repo clone Priyanshu1203-cmd/abd-trading-bot
+git clone https://github.com/Priyanshu1203-cmd/abd-trading-bot.git
 cd abd-trading-bot
 ./setup.sh
 ./run.sh test
