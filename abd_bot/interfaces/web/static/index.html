@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ABD Analyzer</title>
+  <meta name="description" content="Intraday, swing aur long-term trading plan: NSE, crypto aur forex ke levels, liquidity aur trigger points.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect x='4' y='4' width='24' height='6' rx='2' fill='%232a78d6'/%3E%3Crect x='4' y='13' width='24' height='6' rx='2' fill='%23c8cfdb'/%3E%3Crect x='4' y='22' width='24' height='6' rx='2' fill='%23eb6834'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anek+Latin:wdth,wght@75..125,300..700&display=swap">
+  <link rel="stylesheet" href="/static/styles.css?v=2">
+  <script>try { const t = localStorage.getItem("abd-theme"); if (t) document.documentElement.dataset.theme = t; } catch (e) {}</script>
+</head>
+<body>
+  <header class="top">
+    <a class="brand" href="/">ABD Analyzer</a>
+    <div class="top-actions">
+      <button class="icon-btn" id="theme" type="button" aria-label="Dark ya light mode">
+        <svg viewBox="0 0 20 20" width="18" height="18" aria-hidden="true"><circle cx="10" cy="10" r="7.25" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M10 2.75a7.25 7.25 0 0 1 0 14.5z" fill="currentColor"/></svg>
+      </button>
+      <button class="tg-chip" id="tg-chip" type="button" aria-expanded="false" aria-controls="tg-panel">Telegram</button>
+    </div>
+    <section class="tg-panel" id="tg-panel" hidden aria-label="Telegram connection"></section>
+  </header>
+
+  <form class="ask" id="ask" novalidate>
+    <fieldset class="ask-q">
+      <legend>Aap kis type ke trader ho?</legend>
+      <div class="seg" id="style-seg"></div>
+    </fieldset>
+    <fieldset class="ask-q">
+      <legend>Kaunsa market?</legend>
+      <div class="seg" id="market-seg"></div>
+    </fieldset>
+    <div class="ask-q ask-symbol">
+      <label for="symbol">Kaunsa symbol?</label>
+      <div class="symbol-row">
+        <input id="symbol" name="symbol" autocomplete="off" spellcheck="false" autocapitalize="characters" maxlength="30">
+        <button class="primary" type="submit">Plan banao</button>
+      </div>
+      <div class="quick" id="quick"></div>
+    </div>
+  </form>
+  <p class="ask-status" id="ask-status" role="status" aria-live="polite"></p>
+
+  <main class="result" id="result" hidden>
+    <section class="headline" id="headline"></section>
+    <div class="board">
+      <section class="plan" aria-labelledby="plan-title">
+        <h2 id="plan-title">Trading plan</h2>
+        <ol class="ladder" id="ladder"></ol>
+        <div class="plan-actions" id="plan-actions"></div>
+      </section>
+      <section class="chart-card" aria-label="Price chart, levels ke saath">
+        <div class="ohlc" id="ohlc"></div>
+        <div class="chart" id="chart"></div>
+        <ul class="legend" id="legend"></ul>
+      </section>
+    </div>
+    <div class="details">
+      <section class="bias" id="bias"></section>
+      <section class="levels" aria-labelledby="levels-title">
+        <h2 id="levels-title">Key levels</h2>
+        <table class="lv-table" id="levels"></table>
+        <div class="pivots" id="pivots"></div>
+      </section>
+      <section class="liquidity" id="liquidity"></section>
+    </div>
+    <section class="context" id="context"></section>
+    <footer class="fineprint" id="fineprint"></footer>
+  </main>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="https://unpkg.com/lightweight-charts@5.2.1/dist/lightweight-charts.standalone.production.js"
+          integrity="sha384-KkYqTZlM13Zya6fVUF3IGCBOQ1ehFeJVVgxaVvD/0MebineF9EI8Jkd3NnWNChqN" crossorigin="anonymous"></script>
+  <script src="/static/app.js?v=2"></script>
+</body>
+</html>

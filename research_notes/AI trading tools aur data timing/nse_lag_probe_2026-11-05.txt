@@ -1,0 +1,48 @@
+
+ROUND 1  now 09:28:18 IST
+  RELIANCE.NS  1m: last bar open 09:28 IST | close 1317.50 | vol 0 | now-open 0.3 min
+  RELIANCE.NS  5m: last bar open 09:25 IST | close 1317.50 | vol 89805 | now-open 3.3 min
+  HDFCBANK.NS  1m: last bar open 09:28 IST | close 755.50 | vol 0 | now-open 0.3 min
+  HDFCBANK.NS  5m: last bar open 09:25 IST | close 755.50 | vol 1138413 | now-open 3.4 min
+  ^NSEI        1m: last bar open 09:28 IST | close 24345.85 | vol 0 | now-open 0.4 min
+  ^NSEI        5m: last bar open 09:25 IST | close 24347.25 | vol 0 | now-open 3.4 min
+  ^NSEBANK     1m: last bar open 09:28 IST | close 56835.10 | vol 0 | now-open 0.4 min
+  ^NSEBANK     5m: last bar open 09:25 IST | close 56836.55 | vol 0 | now-open 3.4 min
+  ^INDIAVIX    1m: last bar open 09:28 IST | close 15.23 | vol 0 | now-open 0.4 min
+  ^INDIAVIX    5m: last bar open 09:45 IST | close 15.16 | vol 0 | now-open 0.7 min
+  ^BSESN       1m: last bar open 09:30 IST | close 78649.63 | vol 0 | now-open 15.7 min
+  ^BSESN       5m: last bar open 09:30 IST | close 78654.78 | vol 0 | now-open 15.7 min
+  RELIANCE.BO  1m: last bar open 09:30 IST | close 1315.50 | vol 0 | now-open 15.8 min
+  RELIANCE.BO  5m: last bar open 09:30 IST | close 1316.00 | vol 0 | now-open 15.8 min
+
+ROUND 2  now 11:07:34 IST
+  RELIANCE.NS  1m: last bar open 11:07 IST | close 1314.40 | vol 0 | now-open 0.6 min
+  RELIANCE.NS  5m: last bar open 11:05 IST | close 1314.40 | vol 116461 | now-open 2.6 min
+  HDFCBANK.NS  1m: last bar open 11:07 IST | close 749.90 | vol 0 | now-open 0.6 min
+  HDFCBANK.NS  5m: last bar open 11:05 IST | close 749.90 | vol 147037 | now-open 2.6 min
+  ^NSEI        1m: last bar open 11:07 IST | close 24380.60 | vol 0 | now-open 0.6 min
+  ^NSEI        5m: last bar open 11:05 IST | close 24380.60 | vol 0 | now-open 2.6 min
+  ^NSEBANK     1m: last bar open 11:07 IST | close 57061.00 | vol 0 | now-open 0.7 min
+  ^NSEBANK     5m: last bar open 11:05 IST | close 57059.65 | vol 0 | now-open 2.7 min
+  ^INDIAVIX    1m: last bar open 11:07 IST | close 15.16 | vol 0 | now-open 0.7 min
+  ^INDIAVIX    5m: last bar open 11:05 IST | close 15.16 | vol 0 | now-open 2.7 min
+  ^BSESN       1m: last bar open 10:52 IST | close 78682.58 | vol 0 | now-open 15.7 min
+  ^BSESN       5m: last bar open 10:50 IST | close 78681.12 | vol 0 | now-open 17.7 min
+  RELIANCE.BO  1m: last bar open 10:52 IST | close 1304.95 | vol 0 | now-open 15.7 min
+  RELIANCE.BO  5m: last bar open 10:50 IST | close 1304.95 | vol 3447 | now-open 17.8 min
+
+ROUND 3  now 12:14:50 IST
+  RELIANCE.NS  1m: last bar open 12:14 IST | close 1311.90 | vol 0 | now-open 0.9 min
+  RELIANCE.NS  5m: last bar open 12:10 IST | close 1311.90 | vol 106880 | now-open 4.9 min
+  HDFCBANK.NS  1m: last bar open 12:14 IST | close 753.00 | vol 0 | now-open 0.9 min
+  HDFCBANK.NS  5m: last bar open 12:10 IST | close 752.95 | vol 167437 | now-open 4.9 min
+  ^NSEI        1m: last bar open 12:14 IST | close 24412.15 | vol 0 | now-open 0.9 min
+  ^NSEI        5m: last bar open 12:10 IST | close 24412.00 | vol 0 | now-open 5.0 min
+  ^NSEBANK     1m: last bar open 12:14 IST | close 57330.75 | vol 0 | now-open 1.0 min
+  ^NSEBANK     5m: last bar open 12:10 IST | close 57332.25 | vol 0 | now-open 5.0 min
+  ^INDIAVIX    1m: last bar open 12:14 IST | close 15.19 | vol 0 | now-open 1.0 min
+  ^INDIAVIX    5m: last bar open 12:15 IST | close 15.19 | vol 0 | now-open 0.0 min
+  ^BSESN       1m: last bar open 12:00 IST | close 78841.66 | vol 0 | now-open 15.0 min
+  ^BSESN       5m: last bar open 12:00 IST | close 78831.03 | vol 0 | now-open 15.1 min
+  RELIANCE.BO  1m: last bar open 12:00 IST | close 1313.90 | vol 0 | now-open 15.1 min
+  RELIANCE.BO  5m: last bar open 12:00 IST | close 1313.90 | vol 0 | now-open 15.1 min
